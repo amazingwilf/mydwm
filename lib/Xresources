@@ -1,0 +1,76 @@
+Xft.dpi:	            192
+
+Xcursor.theme:	        Bibata-Modern-Ice
+Xcursor.size:	        44
+
+#define bg   		    #1d2021
+#define fg              #d4be98
+#define cc   		    #6da3ec
+
+#define col0		    #141617
+#define col1		    #ea6926
+#define col2		    #c1d041
+#define col3		    #eecf75
+#define col4		    #6da3ec
+#define col5		    #fd9bc1
+#define col6		    #fe9d6e
+#define col7		    #ffffff
+
+#define col8		    #545454
+#define col9		    #d3573b
+#define col10		    #c1d041
+#define col11		    #eecf75
+#define col12		    #2c86ff
+#define col13		    #fd9bc1
+#define col14		    #92a5df
+#define col15		    #ffffff
+
+*foreground:            fg
+*background:            bg
+*cursorColor:           cc
+
+*color0:                col0
+*color1:                col1
+*color2:                col2
+*color3:                col3
+*color4:                col4
+*color5:                col5
+*color6:                col6
+*color7:                col7
+
+*color8:                col8
+*color9:                col9
+*color10:               col10
+*color11:               col11
+*color12:               col12
+*color13:               col13
+*color14:               col14
+*color15:               col15
+
+#define title           #004466
+#define button          #aa0000
+
+dwm.normfgcolor:        fg
+dwm.normbgcolor:        bg
+dwm.normbordercolor:    col8
+
+dwm.selfgcolor:         col15
+dwm.selbgcolor:         title
+dwm.selbordercolor:     col4
+
+dwm.floatfgcolor:       fg
+dwm.floatbgcolor:       bg
+dwm.floatbordercolor:   col2
+
+dwm.scratchfgcolor:     fg
+dwm.scratchbgcolor:     bg
+dwm.scratchbordercolor: col3
+
+dwm.tagsnormfgcolor:    col4
+dwm.tagsnormbgcolor:    bg
+
+dwm.tagsselfgcolor:     col15
+dwm.tagsselbgcolor:     title
+
+dwm.ltsymbolfgcolor:    col3
+dwm.ltsymbolbgcolor:    bg

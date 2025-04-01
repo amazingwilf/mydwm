@@ -1,0 +1,43 @@
+# Terminal (ghostty)
+super + Return
+	ghostty --title=Terminal
+
+# Rofi App Launcher
+super + space
+	rofi -show drun
+
+# Web browser (Firefox)
+super + w
+	firefox
+
+super + shift + w
+	chromium
+
+# File manager (Thunar)
+super + e
+	thunar
+
+# Colour picker
+super + p
+	colorpicker
+
+# Lockscreen
+super + shift + BackSpace
+    betterlockscreen --lock
+
+# Brighness control
+XF86MonBrightness{Up,Down}
+	brightness{ --inc, --dec}
+	
+# Speaker Volume control
+XF86Audio{RaiseVolume,LowerVolume}
+	volume{ --inc, --dec}
+
+# Mic Volume control
+XF86Audio{Mute,MicMute}
+	volume{ --toggle, --toggle-mic}
+	
+# Reload Keybindings
+super + Escape
+	pkill -USR1 -x sxhkd
+
