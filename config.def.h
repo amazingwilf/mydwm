@@ -7,6 +7,9 @@ static const unsigned int snap		= 32;
 static const int showbar			= 1; 
 static const int topbar				= 1;
 
+#define ICONSIZE (bh - 10)
+#define ICONSPACING 8
+
 static const unsigned int gappih	= 15;
 static const unsigned int gappiv	= 15;
 static const unsigned int gappoh	= 15;
@@ -15,7 +18,6 @@ static int smartgaps				= 1;
 
 static const char *fonts[]			= { "NotoSans Nerd Font:size=12",
 										"JetBrainsMono Nerd Font:style=ExtraBold:size=10" };
-static const char dmenufont[]		= "NotoSans Nerd Font:size=12";
 
 #include "termcolors.h"
 
@@ -77,6 +79,7 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	{ .class = "Lxappearance", .isfloating = 1, .iscentered = 1 },
+	{ .class = "pavucontrol", .isfloating = 1, .iscentered = 1 },
 	{ .instance = "floaterm", .isfloating = 1, .floatpos = "50% 50% 90% 90%" },
 	{ .class = "firefox", .tags = 1 << 1 },
 };
