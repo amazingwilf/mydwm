@@ -59,7 +59,7 @@ static const char *const autostart[] = {
 	"sxhkd", NULL,
 	"feh", "--bg-fill", "/usr/share/backgrounds/archhex.jpg", NULL,
 	"picom", "-b", NULL,
-	"slstatus", NULL,
+	"dwmblocks", NULL,
 	NULL /* terminate */
 };
 
@@ -77,6 +77,7 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	{ .class = "Lxappearance", .isfloating = 1, .iscentered = 1 },
+	{ .instance = "floaterm", .isfloating = 1, .floatpos = "50% 50% 90% 90%" },
 	{ .class = "firefox", .tags = 1 << 1 },
 };
 
