@@ -1,0 +1,45 @@
+#include ".Xresources.d/colors.xrdb"
+
+Xft.dpi:            192
+
+Xcursor.theme:      Bibata-Modern-Ice
+Xcursor.size:       44
+
+
+*background:        #000000
+*foreground:        #ffffff
+
+*color0:            #000000
+*color1:            #cd0000
+*color2:            #00cd00
+*color3:            #cdcd00
+*color4:            #0000ee
+*color5:            #cd00cd
+*color6:            #00cdcd
+*color7:            #e5e5e5
+
+*color8:            #7f7f7f
+*color9:            #ff0000
+*color10:           #00ff00
+*color11:           #ffff00
+*color12:           #5c5cff
+*color13:           #ff00ff
+*color14:           #00ffff
+*color15:           #ffffff
+
+dwm.normfgcolor:            base06
+dwm.normbgcolor:            base00
+dwm.normbordercolor:        base03
+
+dwm.selfgcolor:             base07
+dwm.selbgcolor:             base00
+dwm.selbordercolor:         base0D
+
+dwm.ltsymfgcolor:           base0A
+dwm.ltsymbgcolor:           base00
+dwm.ltsymbordercolor:       base0D
+
+dwm.emptytagfgcolor:        base03
+dwm.emptytagbgcolor:        base00
+dwm.emptytagbordercolor:    base0D
+

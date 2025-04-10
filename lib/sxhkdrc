@@ -1,0 +1,38 @@
+# Reload Keybindings
+super + Escape
+	pkill -USR1 -x sxhkd
+
+
+# Terminal (alacritty)
+super + Return
+	ghostty --title=Terminal
+
+
+# dmenu
+super + space
+	dmenu_run -p "run: " 
+
+# Applications
+super + {e,w}
+	{thunar,firefox}
+
+# More applications
+super + shift + p
+	bspcolorpicker
+
+# Lockscreen
+ctrl + alt + l
+    betterlockscreen --lock
+
+# Brighness control
+XF86MonBrightness{Up,Down}
+	brightness{ --inc, --dec}
+	
+# Speaker Volume control
+XF86Audio{RaiseVolume,LowerVolume}
+	volume{ --inc, --dec}
+
+# Mic Volume control
+XF86Audio{Mute,MicMute}
+	volume{ --toggle, --toggle-mic}
+	
